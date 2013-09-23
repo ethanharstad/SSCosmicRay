@@ -6,12 +6,12 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
-Title ""
-Date "21 sep 2013"
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 2 4
+Title "Solid State Cosmic Ray Detector"
+Date "23 sep 2013"
+Rev "1"
+Comp "Ethan Harstad"
+Comment1 "https://github.com/ethanharstad/SSCosmicRay"
 Comment2 ""
 Comment3 ""
 Comment4 ""
