@@ -4,3 +4,4 @@
 *.tmp
 *.kicad_pcb-bak
 *autosave*
+$*
