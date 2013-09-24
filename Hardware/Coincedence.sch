@@ -207,9 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 5100 2900 5100
 Wire Wire Line
-	2100 4100 2700 4100
-Connection ~ 2700 4100
-Wire Wire Line
 	2500 3100 2900 3100
 Wire Wire Line
 	2500 4700 2900 4700
@@ -359,4 +356,7 @@ F 8 "X7R" H 1350 5000 60  0000 R CNN "Dielectric"
 	1    1400 4850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2100 4100 2700 4100
+Connection ~ 2700 4100
 $EndSCHEMATC

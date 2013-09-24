@@ -100,4 +100,10 @@ Wire Wire Line
 Wire Wire Line
 	7900 4300 8400 4300
 Connection ~ 5900 4900
+$Sheet
+S 7000 1100 1000 1000
+U 5241F320
+F0 "Power" 60
+F1 "Power.sch" 60
+$EndSheet
 $EndSCHEMATC
