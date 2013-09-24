@@ -6,7 +6,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title "Solid State Cosmic Ray Detector"
 Date "24 sep 2013"
 Rev "1"
@@ -72,4 +72,32 @@ Wire Wire Line
 Wire Wire Line
 	7900 3500 8400 3500
 Connection ~ 5900 2900
+$Sheet
+S 4400 4400 1000 1000
+U 52414C52
+F0 "Amplifier 2" 60
+F1 "Amp2.sch" 60
+F2 "Out" O R 5400 4900 60 
+F3 "In" I L 4400 4900 60 
+$EndSheet
+$Sheet
+S 2400 4400 1000 1000
+U 52414C7B
+F0 "Detector 2" 60
+F1 "Det2.sch" 60
+F2 "Out" O R 3400 4900 60 
+$EndSheet
+Wire Wire Line
+	3400 4900 4400 4900
+Wire Wire Line
+	5400 4900 7900 4900
+Wire Wire Line
+	5900 4900 5900 4200
+Wire Wire Line
+	5900 4200 6400 4200
+Wire Wire Line
+	7900 4900 7900 4300
+Wire Wire Line
+	7900 4300 8400 4300
+Connection ~ 5900 4900
 $EndSCHEMATC
