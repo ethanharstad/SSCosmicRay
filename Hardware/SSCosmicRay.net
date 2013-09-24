@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/eharstad/Documents/GitHub/SSCosmicRay/Hardware/SSCosmicRay.sch)
-    (date "9/24/2013 2:45:54 AM")
+    (date "9/24/2013 3:06:51 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R1)
@@ -215,11 +215,19 @@
       (tstamp 523CFF56))
     (comp (ref TP2)
       (value Out1)
+      (fields
+        (field (name "MFR Name") Keystone)
+        (field (name "MFR Part No") 5015)
+        (field (name "Distributor Part No") 5015KCT-ND))
       (libsource (lib Aerodyne_v2) (part TP))
       (sheetpath (names "/Amplifier 1/") (tstamps /523CFD69/))
       (tstamp 523CFFF1))
     (comp (ref TP1)
       (value In1)
+      (fields
+        (field (name "MFR Name") Keystone)
+        (field (name "MFR Part No") 5015)
+        (field (name "Distributor Part No") 5015KCT-ND))
       (libsource (lib Aerodyne_v2) (part TP))
       (sheetpath (names "/Amplifier 1/") (tstamps /523CFD69/))
       (tstamp 523CFFF8))
@@ -470,6 +478,10 @@
       (tstamp 5240FD97))
     (comp (ref X1)
       (value 8MHz)
+      (fields
+        (field (name "MFR Name") Abracon)
+        (field (name "MFR Part No") ABM7-8.000MHZ-D2Y-T)
+        (field (name "Distributor Part No") 535-9831-1-ND))
       (libsource (lib Aerodyne_v2) (part CRYSTAL))
       (sheetpath (names /Processor/) (tstamps /523FD5E2/))
       (tstamp 5240FEA6))
@@ -491,6 +503,10 @@
       (tstamp 5240FED5))
     (comp (ref J2)
       (value USB_MINI)
+      (fields
+        (field (name "MFR Name") "On Shore Technology")
+        (field (name "MFR Part No") USB-M26FTR)
+        (field (name "Distributor Part No") ED2992CT-ND))
       (libsource (lib Aerodyne_v2) (part USB_MINI))
       (sheetpath (names /Processor/) (tstamps /523FD5E2/))
       (tstamp 5240FF9C))
@@ -679,11 +695,19 @@
       (tstamp 52414F53))
     (comp (ref TP4)
       (value Out1)
+      (fields
+        (field (name "MFR Name") Keystone)
+        (field (name "MFR Part No") 5015)
+        (field (name "Distributor Part No") 5015KCT-ND))
       (libsource (lib Aerodyne_v2) (part TP))
       (sheetpath (names "/Amplifier 2/") (tstamps /52414C52/))
       (tstamp 52414FA0))
     (comp (ref TP3)
       (value In1)
+      (fields
+        (field (name "MFR Name") Keystone)
+        (field (name "MFR Part No") 5015)
+        (field (name "Distributor Part No") 5015KCT-ND))
       (libsource (lib Aerodyne_v2) (part TP))
       (sheetpath (names "/Amplifier 2/") (tstamps /52414C52/))
       (tstamp 52414FA7))
@@ -1088,6 +1112,8 @@
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib Aerodyne_v2) (part TP)
       (description "Test Point")
+      (footprints
+        (fp TP*))
       (fields
         (field (name Reference) TP)
         (field (name Value) TP)

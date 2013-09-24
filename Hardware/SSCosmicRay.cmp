@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/24/2013 2:56:49 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/24/2013 3:04:15 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /523FD5E2/5240FD97;
 Reference = J1;
 ValeurCmp = ICSP-PIC;
-IdModule  = ;
+IdModule  = HDRV5W38P254_5X1-LOCK;
 EndCmp
 
 BeginCmp
@@ -536,28 +536,28 @@ BeginCmp
 TimeStamp = /523CFD69/523CFFF8;
 Reference = TP1;
 ValeurCmp = In1;
-IdModule  = ;
+IdModule  = TP-5015;
 EndCmp
 
 BeginCmp
 TimeStamp = /523CFD69/523CFFF1;
 Reference = TP2;
 ValeurCmp = Out1;
-IdModule  = ;
+IdModule  = TP-5015;
 EndCmp
 
 BeginCmp
 TimeStamp = /52414C52/52414FA7;
 Reference = TP3;
 ValeurCmp = In1;
-IdModule  = ;
+IdModule  = TP-5015;
 EndCmp
 
 BeginCmp
 TimeStamp = /52414C52/52414FA0;
 Reference = TP4;
 ValeurCmp = Out1;
-IdModule  = ;
+IdModule  = TP-5015;
 EndCmp
 
 BeginCmp
