@@ -572,4 +572,8 @@ Text Notes 5500 3600 2    60   ~ 0
 A
 Text Notes 5500 3700 2    60   ~ 0
 A
+Text Label 5200 4800 2    60   ~ 0
+SCL
+Text Label 5200 4700 2    60   ~ 0
+SDA
 $EndSCHEMATC
