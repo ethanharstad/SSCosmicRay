@@ -6,9 +6,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title "Solid State Cosmic Ray Detector"
-Date "23 sep 2013"
+Date "24 sep 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -111,19 +111,6 @@ F 3 "~" H 2750 2600 60  0000 C CNN
 F 4 "V" H 2700 2450 60  0000 R CNN "Voltage"
 F 5 "X7R" H 2700 2750 60  0000 R CNN "Dielectric"
 	1    2750 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 523CFF05
-P 3350 3700
-F 0 "C?" H 3400 3850 60  0000 L CNN
-F 1 "1000pF" H 3400 3550 60  0000 L CNN
-F 2 "~" H 3350 3700 60  0000 C CNN
-F 3 "~" H 3350 3700 60  0000 C CNN
-F 4 "V" H 3300 3550 60  0000 R CNN "Voltage"
-F 5 "X7R" H 3300 3850 60  0000 R CNN "Dielectric"
-	1    3350 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -566,5 +553,18 @@ F 5 "MAX4477AUA+" H 10100 4300 60  0001 C CNN "MFR Part No"
 F 6 "MAX4477AUA+-ND" H 10100 4300 60  0001 C CNN "Distributor Part No"
 	2    10100 4300
 	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 52410D12
+P 3350 3700
+F 0 "C?" H 3400 3850 60  0000 L CNN
+F 1 "0.01uF" H 3400 3550 60  0000 L CNN
+F 2 "~" H 3350 3700 60  0000 C CNN
+F 3 "~" H 3350 3700 60  0000 C CNN
+F 4 "V" H 3300 3550 60  0000 R CNN "Voltage"
+F 5 "X7R" H 3300 3850 60  0000 R CNN "Dielectric"
+	1    3350 3700
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
