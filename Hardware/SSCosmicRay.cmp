@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/25/2013 11:40:50 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/26/2013 2:33:44 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -522,14 +522,14 @@ BeginCmp
 TimeStamp = /523FD5E2/52410496;
 Reference = SW1;
 ValeurCmp = PGM;
-IdModule  = ;
+IdModule  = SW-TL3315;
 EndCmp
 
 BeginCmp
 TimeStamp = /523FD5E2/52410607;
 Reference = SW2;
 ValeurCmp = RST;
-IdModule  = ;
+IdModule  = SW-TL3315;
 EndCmp
 
 BeginCmp
@@ -585,7 +585,7 @@ BeginCmp
 TimeStamp = /523E0DA4/523FC36F;
 Reference = U4;
 ValeurCmp = 741G08;
-IdModule  = SOT65P210X110-5N;
+IdModule  = SOT65P210-5N;
 EndCmp
 
 BeginCmp
