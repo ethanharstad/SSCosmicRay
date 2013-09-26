@@ -6,9 +6,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 8 8
 Title ""
-Date ""
+Date "24 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -16,4 +16,37 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L VCOM #PWR66
+U 1 1 5241F463
+P 2400 1600
+F 0 "#PWR66" H 2400 1800 40  0001 C CNN
+F 1 "VCOM" H 2400 1750 40  0000 C CNN
+F 2 "" H 2400 1600 60  0000 C CNN
+F 3 "" H 2400 1600 60  0000 C CNN
+	1    2400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR67
+U 1 1 5241F47C
+P 2700 1600
+F 0 "#PWR67" H 2700 1550 20  0001 C CNN
+F 1 "+12V" H 2700 1700 30  0000 C CNN
+F 2 "" H 2700 1600 60  0000 C CNN
+F 3 "" H 2700 1600 60  0000 C CNN
+	1    2700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR68
+U 1 1 5241F48B
+P 3000 1600
+F 0 "#PWR68" H 3000 1560 30  0001 C CNN
+F 1 "+3.3V" H 3000 1710 30  0000 C CNN
+F 2 "" H 3000 1600 60  0000 C CNN
+F 3 "" H 3000 1600 60  0000 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
