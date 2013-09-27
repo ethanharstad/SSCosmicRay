@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Solid State Cosmic Ray Detector"
-Date "26 sep 2013"
+Date "27 sep 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -163,10 +163,10 @@ F 0 "C18" H 2150 7000 60  0000 L CNN
 F 1 "10uF" H 2150 6700 60  0000 L CNN
 F 2 "CAPC2012" H 2100 6850 60  0001 C CNN
 F 3 "~" H 2100 6850 60  0000 C CNN
-F 4 "Samsung" H 2100 6850 60  0001 C CNN "MFR Name"
-F 5 "CL21A106KPFNNNE" H 2100 6850 60  0001 C CNN "MFR Part No"
-F 6 "1276-1052-1-ND" H 2100 6850 60  0001 C CNN "Distributor Part No"
-F 7 "10V" H 2050 6700 60  0000 R CNN "Voltage"
+F 4 "Taiyo Yuden" H 2100 6850 60  0001 C CNN "MFR Name"
+F 5 "EMK212BJ106KG-T" H 2100 6850 60  0001 C CNN "MFR Part No"
+F 6 "587-1295-1-ND" H 2100 6850 60  0001 C CNN "Distributor Part No"
+F 7 "16V" H 2050 6700 60  0000 R CNN "Voltage"
 F 8 "X5R" H 2050 7000 60  0000 R CNN "Dielectric"
 	1    2100 6850
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/26/2013 2:33:44 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/27/2013 2:45:15 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -218,6 +218,48 @@ IdModule  = CAPC1608;
 EndCmp
 
 BeginCmp
+TimeStamp = /5241F320/52450BC1;
+Reference = C32;
+ValeurCmp = 22nF;
+IdModule  = CAPC2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52450B11;
+Reference = C33;
+ValeurCmp = 22nF;
+IdModule  = CAPC2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52451844;
+Reference = C34;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52450D94;
+Reference = C35;
+ValeurCmp = C;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52450DF3;
+Reference = C36;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/5245185F;
+Reference = C37;
+ValeurCmp = 2.2uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
 TimeStamp = /523CFD04/52412B3D;
 Reference = D1;
 ValeurCmp = VBPW34FASR;
@@ -341,6 +383,13 @@ TimeStamp = /523FD5E2/5240FF9C;
 Reference = J2;
 ValeurCmp = USB_MINI;
 IdModule  = CONN-USB-M26FTR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52450ACB;
+Reference = L1;
+ValeurCmp = 10uH;
+IdModule  = INDC3225;
 EndCmp
 
 BeginCmp
@@ -512,6 +561,20 @@ IdModule  = RESC1608;
 EndCmp
 
 BeginCmp
+TimeStamp = /5241F320/52450D6B;
+Reference = R25;
+ValeurCmp = R;
+IdModule  = RESC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52450DD8;
+Reference = R26;
+ValeurCmp = R;
+IdModule  = RESC1608;
+EndCmp
+
+BeginCmp
 TimeStamp = /523E0DA4/523FBD66;
 Reference = RV1;
 ValeurCmp = 10k;
@@ -526,7 +589,7 @@ IdModule  = SW-TL3315;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52410607;
+TimeStamp = /523FD5E2/5243E5AD;
 Reference = SW2;
 ValeurCmp = RST;
 IdModule  = SW-TL3315;
@@ -607,6 +670,13 @@ TimeStamp = /52414C52/52414FBD;
 Reference = U7;
 ValeurCmp = MAX4477;
 IdModule  = SOP65P490-8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52451268;
+Reference = U8;
+ValeurCmp = LTC3129-SOP;
+IdModule  = SOP50P490-17N;
 EndCmp
 
 BeginCmp
