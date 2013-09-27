@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/27/2013 2:45:15 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/27/2013 6:15:33 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -220,19 +220,19 @@ EndCmp
 BeginCmp
 TimeStamp = /5241F320/52450BC1;
 Reference = C32;
-ValeurCmp = 22nF;
+ValeurCmp = 0.022uF;
 IdModule  = CAPC2012;
 EndCmp
 
 BeginCmp
-TimeStamp = /5241F320/52450B11;
+TimeStamp = /5241F320/5245417C;
 Reference = C33;
-ValeurCmp = 22nF;
+ValeurCmp = 0.022uF;
 IdModule  = CAPC2012;
 EndCmp
 
 BeginCmp
-TimeStamp = /5241F320/52451844;
+TimeStamp = /5241F320/52453F18;
 Reference = C34;
 ValeurCmp = 10uF;
 IdModule  = CAPC2012;
@@ -241,7 +241,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5241F320/52450D94;
 Reference = C35;
-ValeurCmp = C;
+ValeurCmp = 14pF;
 IdModule  = CAPC1608;
 EndCmp
 
@@ -257,6 +257,27 @@ TimeStamp = /5241F320/5245185F;
 Reference = C37;
 ValeurCmp = 2.2uF;
 IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52455CC2;
+Reference = C38;
+ValeurCmp = 0.01uF;
+IdModule  = CAPC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52455F26;
+Reference = C39;
+ValeurCmp = C;
+IdModule  = CAPC2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52456A9F;
+Reference = C40;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012;
 EndCmp
 
 BeginCmp
@@ -372,6 +393,13 @@ IdModule  = DIOC-BPW34R;
 EndCmp
 
 BeginCmp
+TimeStamp = /5241F320/52455EF2;
+Reference = D17;
+ValeurCmp = DIODE-SCH;
+IdModule  = SODFL5026;
+EndCmp
+
+BeginCmp
 TimeStamp = /523FD5E2/5240FD97;
 Reference = J1;
 ValeurCmp = ICSP-PIC;
@@ -388,6 +416,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5241F320/52450ACB;
 Reference = L1;
+ValeurCmp = 10uH;
+IdModule  = INDC3225;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/524569D1;
+Reference = L2;
 ValeurCmp = 10uH;
 IdModule  = INDC3225;
 EndCmp
@@ -563,14 +598,35 @@ EndCmp
 BeginCmp
 TimeStamp = /5241F320/52450D6B;
 Reference = R25;
-ValeurCmp = R;
+ValeurCmp = 4.7M;
 IdModule  = RESC1608;
 EndCmp
 
 BeginCmp
 TimeStamp = /5241F320/52450DD8;
 Reference = R26;
-ValeurCmp = R;
+ValeurCmp = 510k;
+IdModule  = RESC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52456166;
+Reference = R27;
+ValeurCmp = 10k;
+IdModule  = RESC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52455F0B;
+Reference = R28;
+ValeurCmp = 49.9k;
+IdModule  = RESC1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52455F41;
+Reference = R29;
+ValeurCmp = 15.8k;
 IdModule  = RESC1608;
 EndCmp
 
@@ -677,6 +733,13 @@ TimeStamp = /5241F320/52451268;
 Reference = U8;
 ValeurCmp = LTC3129-SOP;
 IdModule  = SOP50P490-17N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52455ED9;
+Reference = U9;
+ValeurCmp = AOZ1280;
+IdModule  = SOT95P280-6N;
 EndCmp
 
 BeginCmp
