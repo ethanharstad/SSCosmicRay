@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "27 sep 2013"
+Date "8 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -174,14 +174,7 @@ F 8 "X5R" H 1950 3100 60  0000 R CNN "Dielectric"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2100 2100 2100
-Wire Wire Line
 	1300 2000 1300 2200
-Wire Wire Line
-	2100 2200 2000 2200
-Wire Wire Line
-	2000 2200 2000 2100
-Connection ~ 2000 2100
 Wire Wire Line
 	1800 1600 1700 1600
 Wire Wire Line
@@ -619,4 +612,26 @@ F 8 "X5R" H 5250 5400 60  0000 R CNN "Dielectric"
 	1    5300 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2100 2100 1300 2100
+$Comp
+L R R30
+U 1 1 52A3E59A
+P 1750 2200
+F 0 "R30" H 1750 2300 50  0000 C CNN
+F 1 "10k" H 1750 2200 50  0000 C CNN
+F 2 "~" H 1750 2200 60  0000 C CNN
+F 3 "~" H 1750 2200 60  0000 C CNN
+F 4 "W" H 1750 2100 50  0001 C CNN "Power"
+F 5 "%" H 1750 2000 50  0001 C CNN "Tolerance"
+	1    1750 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1500 2200 1400 2200
+Wire Wire Line
+	1400 2200 1400 2100
+Connection ~ 1400 2100
+Wire Wire Line
+	2000 2200 2100 2200
 $EndSCHEMATC
