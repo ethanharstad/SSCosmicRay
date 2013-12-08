@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 12/6/2013 5:49:17 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/7/2013 9:20:12 PM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -123,7 +123,7 @@ BeginCmp
 TimeStamp = /523FD5E2/5240FFDF;
 Reference = C18;
 ValeurCmp = 10uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
@@ -221,21 +221,21 @@ BeginCmp
 TimeStamp = /5241F320/52450BC1;
 Reference = C32;
 ValeurCmp = 0.022uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5241F320/5245417C;
 Reference = C33;
 ValeurCmp = 0.022uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5241F320/52453F18;
 Reference = C34;
 ValeurCmp = 10uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /5241F320/52450DF3;
 Reference = C36;
 ValeurCmp = 10uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
@@ -260,24 +260,24 @@ IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /5241F320/52455CC2;
+TimeStamp = /5241F320/52457190;
 Reference = C38;
 ValeurCmp = 0.01uF;
 IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /5241F320/52455F26;
+TimeStamp = /5241F320/5245816D;
 Reference = C39;
-ValeurCmp = C;
-IdModule  = CAPC2012-N;
+ValeurCmp = 10uF;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
 TimeStamp = /5241F320/52456A9F;
 Reference = C40;
 ValeurCmp = 10uF;
-IdModule  = CAPC2012-N;
+IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
@@ -627,6 +627,13 @@ BeginCmp
 TimeStamp = /5241F320/52455F41;
 Reference = R29;
 ValeurCmp = 15.8k;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52A3E59A;
+Reference = R30;
+ValeurCmp = 10k;
 IdModule  = RESC1608-N;
 EndCmp
 
