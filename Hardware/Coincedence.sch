@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "Solid State Cosmic Ray Detector"
-Date "8 dec 2013"
+Date "20 dec 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -24,7 +24,7 @@ Text HLabel 4300 3300 2    60   Output ~ 0
 Out1
 Text HLabel 4300 4900 2    60   Output ~ 0
 Out2
-Text HLabel 5700 4100 2    60   Output ~ 0
+Text HLabel 5900 4100 2    60   Output ~ 0
 Out
 $Comp
 L OPAMP-DUAL U3
@@ -203,12 +203,12 @@ F 6 "296-11602-1-ND" H 4800 4100 60  0001 C CNN "Distributor Part No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4000 4100 4000
+	4000 4000 4300 4000
 Wire Wire Line
 	4100 4000 4100 3300
 Connection ~ 4100 3300
 Wire Wire Line
-	4300 4200 4100 4200
+	4000 4200 4300 4200
 Wire Wire Line
 	4100 4200 4100 4900
 Connection ~ 4100 4900
@@ -231,7 +231,7 @@ $EndComp
 Wire Wire Line
 	4800 4600 4800 4500
 Wire Wire Line
-	5700 4100 5300 4100
+	5900 4100 5300 4100
 $Comp
 L GND #PWR027
 U 1 1 523FC558
@@ -359,4 +359,42 @@ F 3 "" H 4800 3450 60  0000 C CNN
 	1    4800 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L TP TP5
+U 1 1 52B35063
+P 4000 4000
+F 0 "TP5" H 4000 4350 60  0000 C CNN
+F 1 "TP" H 4000 4250 60  0000 C CNN
+F 2 "~" H 4000 4000 60  0000 C CNN
+F 3 "~" H 4000 4000 60  0000 C CNN
+	1    4000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TP TP6
+U 1 1 52B35072
+P 4000 4200
+F 0 "TP6" H 4000 4550 60  0000 C CNN
+F 1 "TP" H 4000 4450 60  0000 C CNN
+F 2 "~" H 4000 4200 60  0000 C CNN
+F 3 "~" H 4000 4200 60  0000 C CNN
+	1    4000 4200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4100 4000
+Connection ~ 4100 4200
+$Comp
+L TP TP7
+U 1 1 52B352B0
+P 5800 4000
+F 0 "TP7" H 5800 4350 60  0000 C CNN
+F 1 "TP" H 5800 4250 60  0000 C CNN
+F 2 "~" H 5800 4000 60  0000 C CNN
+F 3 "~" H 5800 4000 60  0000 C CNN
+	1    5800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4000 5800 4100
+Connection ~ 5800 4100
 $EndSCHEMATC

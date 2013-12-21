@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/19/2013 1:25:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/19/2013 4:25:11 PM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -281,6 +281,13 @@ IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /523FD5E2/52B3752C;
+Reference = C41;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /523CFD04/52412B3D;
 Reference = D1;
 ValeurCmp = VBPW34FASR;
@@ -526,9 +533,9 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52410670;
+TimeStamp = /523FD5E2/52B3748F;
 Reference = R15;
-ValeurCmp = R;
+ValeurCmp = 10k;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -638,6 +645,20 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /523FD5E2/52B37427;
+Reference = R31;
+ValeurCmp = 10k;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B36EFB;
+Reference = R32;
+ValeurCmp = 10;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /523E0DA4/523FBD66;
 Reference = RV1;
 ValeurCmp = 10k;
@@ -736,10 +757,10 @@ IdModule  = SOT65P210-5N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/5240FCEE;
+TimeStamp = /523FD5E2/52B36C25;
 Reference = U5;
-ValeurCmp = PIC32MX250F128B;
-IdModule  = QFN65P600X600-28N;
+ValeurCmp = PIC32MX250F128D;
+IdModule  = QFP80P1200x1200-44N;
 EndCmp
 
 BeginCmp
