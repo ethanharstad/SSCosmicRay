@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Solid State Cosmic Ray Detector"
-Date "20 dec 2013"
+Date "21 dec 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -326,10 +326,6 @@ Text HLabel 9400 3900 2    60   Input ~ 0
 A1
 Text HLabel 9400 4000 2    60   Input ~ 0
 A2
-Text Label 5200 4800 2    60   ~ 0
-SCL
-Text Label 5200 4700 2    60   ~ 0
-SDA
 $Comp
 L C C20
 U 1 1 52414536
@@ -726,4 +722,64 @@ Wire Wire Line
 	9100 4200 9400 4200
 Wire Wire Line
 	9100 4300 9400 4300
+Text Label 7400 2100 2    60   ~ 0
+SDA/DO
+Text Label 9400 3100 0    60   ~ 0
+SCL/DI
+Wire Wire Line
+	9400 3100 9100 3100
+Wire Wire Line
+	7400 2100 7700 2100
+$Comp
+L CONN-9 J3
+U 1 1 52B50B8D
+P 9800 6000
+F 0 "J3" H 9800 6500 60  0000 C CNN
+F 1 "CONN-9" H 9800 5500 60  0000 C CNN
+F 2 "~" H 9800 6050 60  0000 C CNN
+F 3 "~" H 9800 6050 60  0000 C CNN
+F 4 "TE" H 9800 6000 60  0001 C CNN "MFR Name"
+F 5 "1734354-1" H 9800 6000 60  0001 C CNN "MFR Part No"
+F 6 "A35107-ND" H 9800 6000 60  0001 C CNN "Distributor Part No"
+	1    9800 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 52B50B9C
+P 9300 6500
+F 0 "#PWR048" H 9300 6500 30  0001 C CNN
+F 1 "GND" H 9300 6430 30  0001 C CNN
+F 2 "" H 9300 6500 60  0000 C CNN
+F 3 "" H 9300 6500 60  0000 C CNN
+	1    9300 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6500 9300 6000
+Wire Wire Line
+	9300 6000 9400 6000
+$Comp
+L VCOM #PWR42
+U 1 1 52B50CC7
+P 9300 5500
+F 0 "#PWR42" H 9300 5700 40  0001 C CNN
+F 1 "VCOM" H 9300 5650 40  0000 C CNN
+F 2 "" H 9300 5500 60  0000 C CNN
+F 3 "" H 9300 5500 60  0000 C CNN
+	1    9300 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5500 9300 5900
+Wire Wire Line
+	9300 5900 9400 5900
+Text Label 9200 5700 2    60   ~ 0
+SDA/DO
+Text Label 9200 5800 2    60   ~ 0
+SCL/DI
+Wire Wire Line
+	9200 5700 9400 5700
+Wire Wire Line
+	9200 5800 9400 5800
 $EndSCHEMATC
