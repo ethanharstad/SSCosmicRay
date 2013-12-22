@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "21 dec 2013"
+Date "22 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -216,7 +216,7 @@ Wire Wire Line
 Connection ~ 3700 2800
 Connection ~ 4200 2800
 Wire Wire Line
-	2100 2600 2000 2600
+	1900 2600 2100 2600
 Wire Wire Line
 	2000 2300 2000 2700
 Wire Wire Line
@@ -634,4 +634,6 @@ Wire Wire Line
 Connection ~ 1400 2100
 Wire Wire Line
 	2000 2200 2100 2200
+Text Label 1900 2600 2    60   ~ 0
+Vcc
 $EndSCHEMATC

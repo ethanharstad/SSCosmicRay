@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/eharstad/Documents/GitHub/SSCosmicRay/Hardware/SSCosmicRay.sch)
-    (date "12/21/2013 3:14:25 AM")
+    (date "12/21/2013 10:01:14 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R1)
@@ -510,9 +510,9 @@
     (comp (ref J2)
       (value USB_MINI)
       (fields
-        (field (name "MFR Name") "On Shore Technology")
-        (field (name "MFR Part No") USB-M26FTR)
-        (field (name "Distributor Part No") ED2992CT-ND))
+        (field (name "MFR Name") Wurth)
+        (field (name "MFR Part No") 651005136421)
+        (field (name "Distributor Part No") 732-2735-ND))
       (libsource (lib Aerodyne_v2) (part USB_MINI))
       (sheetpath (names /Processor/) (tstamps /523FD5E2/))
       (tstamp 5240FF9C))

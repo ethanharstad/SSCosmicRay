@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Solid State Cosmic Ray Detector"
-Date "21 dec 2013"
+Date "22 dec 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -133,9 +133,9 @@ F 0 "J2" H 2100 4150 60  0000 C CNN
 F 1 "USB_MINI" H 2100 3450 60  0000 C CNN
 F 2 "~" H 2100 3850 60  0000 C CNN
 F 3 "~" H 2100 3850 60  0000 C CNN
-F 4 "On Shore Technology" H 2100 3850 60  0001 C CNN "MFR Name"
-F 5 "USB-M26FTR" H 2100 3850 60  0001 C CNN "MFR Part No"
-F 6 "ED2992CT-ND" H 2100 3850 60  0001 C CNN "Distributor Part No"
+F 4 "Wurth" H 2100 3850 60  0001 C CNN "MFR Name"
+F 5 "651005136421" H 2100 3850 60  0001 C CNN "MFR Part No"
+F 6 "732-2735-ND" H 2100 3850 60  0001 C CNN "Distributor Part No"
 	1    2100 3850
 	-1   0    0    -1  
 $EndComp
