@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/21/2013 11:12:58 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/22/2013 1:35:47 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -407,6 +407,132 @@ IdModule  = SODFL5126-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /523CFD04/52B68983;
+Reference = D18;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B6897A;
+Reference = D19;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B68971;
+Reference = D20;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B68968;
+Reference = D21;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B6895F;
+Reference = D22;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B68956;
+Reference = D23;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B6894D;
+Reference = D24;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52B68928;
+Reference = D25;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68CBE;
+Reference = D26;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68CB5;
+Reference = D27;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68CAC;
+Reference = D28;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68CA3;
+Reference = D29;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68C9A;
+Reference = D30;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68C91;
+Reference = D31;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68C88;
+Reference = D32;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52B68C63;
+Reference = D33;
+ValeurCmp = VBPW34FASR;
+IdModule  = DIOC-BPW34R;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B697DA;
+Reference = D34;
+ValeurCmp = LED-DUAL;
+IdModule  = LED-DUAL-VERT-300;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B69811;
+Reference = D35;
+ValeurCmp = LED-DUAL;
+IdModule  = LED-DUAL-VERT-300;
+EndCmp
+
+BeginCmp
 TimeStamp = /523FD5E2/5240FD97;
 Reference = J1;
 ValeurCmp = ICSP-PIC;
@@ -662,6 +788,34 @@ BeginCmp
 TimeStamp = /523FD5E2/52B36EFB;
 Reference = R32;
 ValeurCmp = 10;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B69862;
+Reference = R33;
+ValeurCmp = 150;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B6999E;
+Reference = R34;
+ValeurCmp = 150;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B699A9;
+Reference = R35;
+ValeurCmp = 150;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/52B699B4;
+Reference = R36;
+ValeurCmp = 150;
 IdModule  = RESC1608-N;
 EndCmp
 
