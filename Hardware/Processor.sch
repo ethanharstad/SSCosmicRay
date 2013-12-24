@@ -6,9 +6,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 7
 Title "Solid State Cosmic Ray Detector"
-Date "22 dec 2013"
+Date "24 dec 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -316,12 +316,6 @@ Text Label 7400 2900 2    60   ~ 0
 D-
 Text Label 7400 2800 2    60   ~ 0
 D+
-Text HLabel 9400 4300 2    60   Input ~ 0
-C
-Text HLabel 9400 4100 2    60   Input ~ 0
-C1
-Text HLabel 9400 4200 2    60   Input ~ 0
-C2
 Text HLabel 9400 3900 2    60   Input ~ 0
 A1
 Text HLabel 9400 4000 2    60   Input ~ 0
@@ -884,12 +878,6 @@ Wire Wire Line
 	9100 3900 9400 3900
 Wire Wire Line
 	9100 4000 9400 4000
-Wire Wire Line
-	9100 4100 9400 4100
-Wire Wire Line
-	9100 4200 9400 4200
-Wire Wire Line
-	9100 4300 9400 4300
 Wire Wire Line
 	9400 3100 9100 3100
 Wire Wire Line
