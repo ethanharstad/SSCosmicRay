@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Solid State Cosmic Ray Detector"
-Date "26 dec 2013"
+Date "27 dec 2013"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -527,10 +527,10 @@ F 3 "" H 9300 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCOM #PWR53
+L VCOM #PWR51
 U 1 1 52B50CC7
 P 9300 5500
-F 0 "#PWR53" H 9300 5700 40  0001 C CNN
+F 0 "#PWR51" H 9300 5700 40  0001 C CNN
 F 1 "VCOM" H 9300 5650 40  0000 C CNN
 F 2 "" H 9300 5500 60  0000 C CNN
 F 3 "" H 9300 5500 60  0000 C CNN
@@ -912,10 +912,10 @@ Wire Wire Line
 	2800 3600 2800 3700
 Connection ~ 2800 3700
 $Comp
-L VCOM #PWR39
+L VCOM #PWR36
 U 1 1 52B95D42
 P 2800 3000
-F 0 "#PWR39" H 2800 3200 40  0001 C CNN
+F 0 "#PWR36" H 2800 3200 40  0001 C CNN
 F 1 "VCOM" H 2800 3150 40  0000 C CNN
 F 2 "" H 2800 3000 60  0000 C CNN
 F 3 "" H 2800 3000 60  0000 C CNN
