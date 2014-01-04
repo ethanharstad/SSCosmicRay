@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/24/2013 2:44:33 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/27/2013 3:45:09 AM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -43,7 +43,7 @@ IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523CFD04/52B94854;
+TimeStamp = /52414C7B/52BB5C8C;
 Reference = C7;
 ValeurCmp = 0.1uF;
 IdModule  = CAPC1608-N;
@@ -305,6 +305,20 @@ BeginCmp
 TimeStamp = /5241F320/5245816D;
 Reference = C44;
 ValeurCmp = 10uF;
+IdModule  = CAPC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523CFD04/52BD5A2E;
+Reference = C45;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /52414C7B/52BD5D20;
+Reference = C46;
+ValeurCmp = 0.1uF;
 IdModule  = CAPC1608-N;
 EndCmp
 
@@ -680,9 +694,9 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52414636;
+TimeStamp = /523CFD04/52BD5A23;
 Reference = R13;
-ValeurCmp = 10k;
+ValeurCmp = 1M;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -729,9 +743,9 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/5241462B;
+TimeStamp = /52414C7B/52BD5D56;
 Reference = R20;
-ValeurCmp = 10k;
+ValeurCmp = 1M;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -873,6 +887,34 @@ TimeStamp = /52414C7B/52B96391;
 Reference = R40;
 ValeurCmp = 10M;
 IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52BCE4A7;
+Reference = SH1;
+ValeurCmp = SHIELD;
+IdModule  = EMI-TE-155157X;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52BCE50F;
+Reference = SH2;
+ValeurCmp = SHIELD;
+IdModule  = EMI-TE-155157X;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52BCE518;
+Reference = SH3;
+ValeurCmp = SHIELD;
+IdModule  = EMI-TE-155157X;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241F320/52BCE521;
+Reference = SH4;
+ValeurCmp = SHIELD;
+IdModule  = EMI-TE-155157X;
 EndCmp
 
 BeginCmp
