@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/27/2013 3:45:09 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/7/2014 5:19:50 PM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -435,13 +435,6 @@ IdModule  = DIOC-BPW34R;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52B95C91;
-Reference = D17;
-ValeurCmp = CDBA140;
-IdModule  = SODFL5126-N;
-EndCmp
-
-BeginCmp
 TimeStamp = /523FD5E2/52B697DA;
 Reference = D18;
 ValeurCmp = LED-DUAL;
@@ -575,17 +568,10 @@ IdModule  = SODFL5126-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/5240FD97;
+TimeStamp = /523FD5E2/540CC7FC;
 Reference = J1;
-ValeurCmp = ICSP-PIC;
-IdModule  = HDRV5W38P254_5X1-LOCK;
-EndCmp
-
-BeginCmp
-TimeStamp = /523FD5E2/5240FF9C;
-Reference = J2;
-ValeurCmp = USB_MINI;
-IdModule  = CONN-WURTH-651005136421;
+ValeurCmp = ICSP-CORTEX;
+IdModule  = CONN-TC-2030-NL;
 EndCmp
 
 BeginCmp
@@ -687,13 +673,6 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52B37427;
-Reference = R12;
-ValeurCmp = 10k;
-IdModule  = RESC1608-N;
-EndCmp
-
-BeginCmp
 TimeStamp = /523CFD04/52BD5A23;
 Reference = R13;
 ValeurCmp = 1M;
@@ -729,30 +708,9 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52410460;
-Reference = R18;
-ValeurCmp = 10k;
-IdModule  = RESC1608-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /523FD5E2/52B3748F;
-Reference = R19;
-ValeurCmp = 10k;
-IdModule  = RESC1608-N;
-EndCmp
-
-BeginCmp
 TimeStamp = /52414C7B/52BD5D56;
 Reference = R20;
 ValeurCmp = 1M;
-IdModule  = RESC1608-N;
-EndCmp
-
-BeginCmp
-TimeStamp = /523FD5E2/52B36EFB;
-Reference = R21;
-ValeurCmp = 10;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -918,20 +876,6 @@ IdModule  = EMI-TE-155157X;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52410496;
-Reference = SW1;
-ValeurCmp = PGM;
-IdModule  = SW-TL3315;
-EndCmp
-
-BeginCmp
-TimeStamp = /523FD5E2/5243E5AD;
-Reference = SW2;
-ValeurCmp = RST;
-IdModule  = SW-TL3315;
-EndCmp
-
-BeginCmp
 TimeStamp = /523CFD04/52B913FD;
 Reference = U1;
 ValeurCmp = MAX4477;
@@ -967,10 +911,10 @@ IdModule  = SOP65P490-8N;
 EndCmp
 
 BeginCmp
-TimeStamp = /523FD5E2/52B36C25;
+TimeStamp = /523FD5E2/540CC6CC;
 Reference = U6;
-ValeurCmp = PIC32MX250F128D;
-IdModule  = QFP80P1200x1200-44N;
+ValeurCmp = STM32L100RBT6;
+IdModule  = QFP50P1200X1200-64N;
 EndCmp
 
 BeginCmp
