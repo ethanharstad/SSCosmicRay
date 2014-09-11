@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Ethan/Documents/GitHub/SSCosmicRay/Hardware/SSCosmicRay.sch)
-    (date "9/11/2014 3:53:51 PM")
+    (date "9/11/2014 4:04:28 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R1)
@@ -604,8 +604,8 @@
       (value CONN-9)
       (fields
         (field (name "MFR Name") TE)
-        (field (name "MFR Part No") 1734354-1)
-        (field (name "Distributor Part No") A35107-ND))
+        (field (name "MFR Part No") 1734354-2)
+        (field (name "Distributor Part No") A35108-ND))
       (libsource (lib Aerodyne_v2) (part CONN-9))
       (sheetpath (names /Processor/) (tstamps /523FD5E2/))
       (tstamp 52B50B8D))
