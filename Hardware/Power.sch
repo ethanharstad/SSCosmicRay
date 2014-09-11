@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "7 sep 2014"
+Date "11 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -457,19 +457,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 5600 4800 5600
 Connection ~ 4800 5600
-$Comp
-L R R34
-U 1 1 52456166
-P 2750 5100
-F 0 "R34" H 2750 5200 50  0000 C CNN
-F 1 "10k" H 2750 5100 50  0000 C CNN
-F 2 "~" H 2750 5100 60  0000 C CNN
-F 3 "~" H 2750 5100 60  0000 C CNN
-F 4 "W" H 2750 5000 50  0001 C CNN "Power"
-F 5 "%" H 2750 4900 50  0001 C CNN "Tolerance"
-	1    2750 5100
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2400 4800 2400 5200
 Wire Wire Line
@@ -614,19 +601,6 @@ F 8 "X5R" H 5250 5400 60  0000 R CNN "Dielectric"
 $EndComp
 Wire Wire Line
 	2100 2100 1300 2100
-$Comp
-L R R33
-U 1 1 52A3E59A
-P 1750 2200
-F 0 "R33" H 1750 2300 50  0000 C CNN
-F 1 "10k" H 1750 2200 50  0000 C CNN
-F 2 "~" H 1750 2200 60  0000 C CNN
-F 3 "~" H 1750 2200 60  0000 C CNN
-F 4 "W" H 1750 2100 50  0001 C CNN "Power"
-F 5 "%" H 1750 2000 50  0001 C CNN "Tolerance"
-	1    1750 2200
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	1500 2200 1400 2200
 Wire Wire Line
@@ -721,4 +695,36 @@ Connection ~ 8000 3500
 Wire Wire Line
 	8200 3600 8200 3500
 Connection ~ 8200 3500
+$Comp
+L R R33
+U 1 1 5411D2A8
+P 1750 2200
+F 0 "R33" H 1750 2300 50  0000 C CNN
+F 1 "10k" H 1750 2200 50  0000 C CNN
+F 2 "RESC1608" H 1750 2200 60  0001 C CNN
+F 3 "~" H 1750 2200 60  0000 C CNN
+F 4 "Yageo" H 1750 2200 60  0001 C CNN "MFR Name"
+F 5 "RC0603FR-0710KL" H 1750 2200 60  0001 C CNN "MFR Part No"
+F 6 "311-10.0KHRCT-ND" H 1750 2200 60  0001 C CNN "Distributor Part No"
+F 7 "0.1W" H 1750 2100 50  0001 C CNN "Power"
+F 8 "1%" H 1750 2000 50  0001 C CNN "Tolerance"
+	1    1750 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L R R34
+U 1 1 5411D30B
+P 2750 5100
+F 0 "R34" H 2750 5200 50  0000 C CNN
+F 1 "10k" H 2750 5100 50  0000 C CNN
+F 2 "RESC1608" H 2750 5100 60  0001 C CNN
+F 3 "~" H 2750 5100 60  0000 C CNN
+F 4 "Yageo" H 2750 5100 60  0001 C CNN "MFR Name"
+F 5 "RC0603FR-0710KL" H 2750 5100 60  0001 C CNN "MFR Part No"
+F 6 "311-10.0KHRCT-ND" H 2750 5100 60  0001 C CNN "Distributor Part No"
+F 7 "0.1W" H 2750 5000 50  0001 C CNN "Power"
+F 8 "1%" H 2750 4900 50  0001 C CNN "Tolerance"
+	1    2750 5100
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
