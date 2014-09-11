@@ -379,7 +379,7 @@ Wire Wire Line
 	7600 6200 7800 6200
 Wire Wire Line
 	7600 6300 7800 6300
-Text Label 7600 6000 2    60   ~ 0
+Text Label 7600 6100 2    60   ~ 0
 CountC
 Wire Wire Line
 	7600 6000 7800 6000
@@ -443,7 +443,7 @@ F 6 "497-13631-ND" H 1050 1000 60  0001 C CNN "Distributor Part No"
 $EndComp
 Wire Wire Line
 	7600 5500 7800 5500
-Text Label 7600 6100 2    60   ~ 0
+Text Label 7600 6000 2    60   ~ 0
 AOUT
 Wire Wire Line
 	7600 6100 7800 6100
@@ -457,10 +457,6 @@ Text Label 4000 1400 0    60   ~ 0
 DAC
 Text Label 10700 2050 0    60   ~ 0
 PS
-Text Label 10700 2150 0    60   ~ 0
-SDA/DO
-Text Label 10700 2250 0    60   ~ 0
-SCL/DI
 $Comp
 L ICSP-CORTEX J1
 U 1 1 540CC7FC
