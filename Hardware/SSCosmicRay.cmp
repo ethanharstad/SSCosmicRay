@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/11/2014 3:54:00 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/11/2014 4:21:43 PM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -374,6 +374,13 @@ EndCmp
 BeginCmp
 TimeStamp = /523FD5E2/541211F5;
 Reference = C54;
+ValeurCmp = 0.1uF;
+IdModule  = CAPC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/54121761;
+Reference = C55;
 ValeurCmp = 0.1uF;
 IdModule  = CAPC1608-N;
 EndCmp
@@ -941,6 +948,13 @@ EndCmp
 BeginCmp
 TimeStamp = /523FD5E2/54120940;
 Reference = R41;
+ValeurCmp = 10k;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /523FD5E2/54121756;
+Reference = R42;
 ValeurCmp = 10k;
 IdModule  = RESC1608-N;
 EndCmp
