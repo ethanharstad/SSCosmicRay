@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Solid State Cosmic Ray Detector"
-Date "11 sep 2014"
+Date "12 sep 2014"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -935,9 +935,9 @@ F 0 "U9" H 5250 3900 50  0000 L CNN
 F 1 "LM2903DT" H 5250 3800 50  0000 L CNN
 F 2 "~" H 5500 3800 60  0000 C CNN
 F 3 "~" H 5500 3800 60  0000 C CNN
-F 4 "ST" H 5500 3800 60  0001 C CNN "MFR Name"
-F 5 "LM2903DT" H 5500 3800 60  0001 C CNN "MFR Part No"
-F 6 "497-1559-1-ND" H 5500 3800 60  0001 C CNN "Distributor Part No"
+F 4 "TI" H 5500 3800 60  0001 C CNN "MFR Name"
+F 5 "LM2903DGKR" H 5500 3800 60  0001 C CNN "MFR Part No"
+F 6 "296-16806-1-ND" H 5500 3800 60  0001 C CNN "Distributor Part No"
 	1    5500 3800
 	1    0    0    -1  
 $EndComp
@@ -1032,20 +1032,6 @@ Wire Wire Line
 	3900 1400 4000 1400
 Wire Wire Line
 	4000 1500 3900 1500
-$Comp
-L OPAMP-DUAL U9
-U 2 1 541203DD
-P 7600 3800
-F 0 "U9" H 7350 3900 50  0000 L CNN
-F 1 "LM2903DT" H 7350 3800 50  0000 L CNN
-F 2 "~" H 7600 3800 60  0000 C CNN
-F 3 "~" H 7600 3800 60  0000 C CNN
-F 4 "ST" H 7600 3800 60  0001 C CNN "MFR Name"
-F 5 "LM2903DT" H 7600 3800 60  0001 C CNN "MFR Part No"
-F 6 "497-1559-1-ND" H 7600 3800 60  0001 C CNN "Distributor Part No"
-	2    7600 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 4200 5500 4300
 Wire Wire Line
@@ -1326,4 +1312,18 @@ Wire Wire Line
 Wire Wire Line
 	7900 5400 7700 5400
 Connection ~ 7700 5400
+$Comp
+L OPAMP-DUAL U9
+U 2 1 541324C2
+P 7600 3800
+F 0 "U9" H 7350 3900 50  0000 L CNN
+F 1 "LM2903DT" H 7350 3800 50  0000 L CNN
+F 2 "~" H 7600 3800 60  0000 C CNN
+F 3 "~" H 7600 3800 60  0000 C CNN
+F 4 "TI" H 7600 3800 60  0001 C CNN "MFR Name"
+F 5 "LM2903DGKR" H 7600 3800 60  0001 C CNN "MFR Part No"
+F 6 "296-16806-1-ND" H 7600 3800 60  0001 C CNN "Distributor Part No"
+	2    7600 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
