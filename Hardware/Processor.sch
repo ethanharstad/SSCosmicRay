@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Solid State Cosmic Ray Detector"
-Date "12 sep 2014"
+Date "22 sep 2014"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -173,17 +173,6 @@ F 1 "GND" H 7700 6330 30  0001 C CNN
 F 2 "" H 7700 6400 60  0000 C CNN
 F 3 "" H 7700 6400 60  0000 C CNN
 	1    7700 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCOM #PWR57
-U 1 1 52B50CC7
-P 7700 5300
-F 0 "#PWR57" H 7700 5500 40  0001 C CNN
-F 1 "VCOM" H 7700 5450 40  0000 C CNN
-F 2 "" H 7700 5300 60  0000 C CNN
-F 3 "" H 7700 5300 60  0000 C CNN
-	1    7700 5300
 	1    0    0    -1  
 $EndComp
 Text Label 7300 5600 2    60   ~ 0
@@ -1324,6 +1313,17 @@ F 4 "TI" H 7600 3800 60  0001 C CNN "MFR Name"
 F 5 "LM2903DGKR" H 7600 3800 60  0001 C CNN "MFR Part No"
 F 6 "296-16806-1-ND" H 7600 3800 60  0001 C CNN "Distributor Part No"
 	2    7600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 5420A073
+P 7700 5300
+F 0 "#PWR?" H 7700 5250 20  0001 C CNN
+F 1 "+BATT" H 7700 5400 30  0000 C CNN
+F 2 "" H 7700 5300 60  0000 C CNN
+F 3 "" H 7700 5300 60  0000 C CNN
+	1    7700 5300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
