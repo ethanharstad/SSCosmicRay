@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "Solid State Cosmic Ray Detector"
-Date "22 sep 2014"
+Date "23 sep 2014"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -578,17 +578,6 @@ F 8 "X7R" H 5000 2050 60  0000 R CNN "Dielectric"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR?
-U 1 1 52B9581C
-P 6200 900
-F 0 "#PWR?" H 6200 860 30  0001 C CNN
-F 1 "+3.3V" H 6200 1010 30  0000 C CNN
-F 2 "" H 6200 900 60  0000 C CNN
-F 3 "" H 6200 900 60  0000 C CNN
-	1    6200 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C?
 U 1 1 52B95827
 P 5050 4300
@@ -1137,17 +1126,6 @@ F 8 "X7R" H 9100 2550 60  0000 R CNN "Dielectric"
 	1    9150 2400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 52B95997
-P 8800 2300
-F 0 "#PWR?" H 8800 2260 30  0001 C CNN
-F 1 "+3.3V" H 8800 2410 30  0000 C CNN
-F 2 "" H 8800 2300 60  0000 C CNN
-F 3 "" H 8800 2300 60  0000 C CNN
-	1    8800 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 4500 7500 4500
 Wire Wire Line
@@ -1349,17 +1327,6 @@ F 7 "16V" H 5100 5750 60  0000 R CNN "Voltage"
 F 8 "X7R" H 5100 6050 60  0000 R CNN "Dielectric"
 	1    5150 5900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 52BB5C92
-P 4800 5800
-F 0 "#PWR?" H 4800 5760 30  0001 C CNN
-F 1 "+3.3V" H 4800 5910 30  0000 C CNN
-F 2 "" H 4800 5800 60  0000 C CNN
-F 3 "" H 4800 5800 60  0000 C CNN
-	1    4800 5800
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
