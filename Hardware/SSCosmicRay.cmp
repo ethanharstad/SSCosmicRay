@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/25/2014 7:10:15 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/25/2014 7:39:54 PM
 
 BeginCmp
 TimeStamp = /523CFD04/52412D91;
@@ -887,6 +887,13 @@ TimeStamp = /5241F320/52455F41;
 Reference = R41;
 ValeurCmp = 15.8k;
 IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5424BE6A;
+Reference = SH1;
+ValeurCmp = EMI;
+IdModule  = SHIELD-BMI-S-105;
 EndCmp
 
 BeginCmp
