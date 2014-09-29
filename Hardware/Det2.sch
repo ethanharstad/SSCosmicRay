@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "Solid State Cosmic Ray Detector"
-Date "28 sep 2014"
+Date "29 sep 2014"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -1343,4 +1343,42 @@ F 3 "" H 4900 7500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4900 7500 4900 7400
+Text HLabel 7700 5500 2    60   Input ~ 0
+Ref
+$Comp
+L C C?
+U 1 1 5429D276
+P 7600 5850
+F 0 "C?" H 7650 6000 60  0000 L CNN
+F 1 "0.1uF" H 7650 5700 60  0000 L CNN
+F 2 "CAPC1608" H 7600 5850 60  0001 C CNN
+F 3 "~" H 7600 5850 60  0000 C CNN
+F 4 "Samsung" H 7600 5850 60  0001 C CNN "MFR Name"
+F 5 "CL10B104KB8SFNC" H 7600 5850 60  0001 C CNN "MFR Part No"
+F 6 "1276-1936-1-ND" H 7600 5850 60  0001 C CNN "Distributor Part No"
+F 7 "50V" H 7550 5700 60  0000 R CNN "Voltage"
+F 8 "X7R" H 7550 6000 60  0000 R CNN "Dielectric"
+	1    7600 5850
+	1    0    0    -1  
+$EndComp
+Text Label 7500 5500 2    60   ~ 0
+Ref
+$Comp
+L GND #PWR?
+U 1 1 5429D27E
+P 7600 6200
+F 0 "#PWR?" H 7600 6200 30  0001 C CNN
+F 1 "GND" H 7600 6130 30  0001 C CNN
+F 2 "" H 7600 6200 60  0000 C CNN
+F 3 "" H 7600 6200 60  0000 C CNN
+	1    7600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 6200 7600 6100
+Wire Wire Line
+	7500 5500 7700 5500
+Wire Wire Line
+	7600 5500 7600 5600
+Connection ~ 7600 5500
 $EndSCHEMATC
