@@ -1271,4 +1271,8 @@ F 8 "X7R" H 1550 7000 60  0000 R CNN "Dielectric"
 	1    1600 6850
 	1    0    0    -1  
 $EndComp
+Text Label 6200 1600 0    60   ~ 0
+MCO
+Wire Wire Line
+	6200 1600 6100 1600
 $EndSCHEMATC
