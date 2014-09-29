@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\eharstad\Documents\GitHub\SSCosmicRay\Hardware\SSCosmicRay.sch)
-    (date "9/29/2014 3:41:12 PM")
+    (date "9/29/2014 4:16:17 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref SH1)
@@ -2075,10 +2075,10 @@
     (net (code 28) (name /Processor/ATHR)
       (node (ref U4) (pin 14))
       (node (ref R15) (pin 2)))
-    (net (code 29) (name /Processor/DET2)
+    (net (code 29) (name /Processor/DET1)
       (node (ref R19) (pin 2))
       (node (ref U5) (pin 7)))
-    (net (code 30) (name /Processor/DET1)
+    (net (code 30) (name /Processor/DET2)
       (node (ref U5) (pin 1))
       (node (ref R18) (pin 2)))
     (net (code 31) (name "")
