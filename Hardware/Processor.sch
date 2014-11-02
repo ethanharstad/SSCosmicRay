@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Solid State Cosmic Ray Detector"
-Date "29 oct 2014"
+Date "2 nov 2014"
 Rev "1"
 Comp "Ethan Harstad"
 Comment1 "https://github.com/ethanharstad/SSCosmicRay"
@@ -274,15 +274,15 @@ Text Label 7600 6000 2    60   ~ 0
 AOUT
 Wire Wire Line
 	7600 6100 7800 6100
-Text Label 10700 1700 0    60   ~ 0
+Text Label 8000 1200 0    60   ~ 0
 Count1
-Text Label 10700 1800 0    60   ~ 0
+Text Label 8000 1100 0    60   ~ 0
 Count2
-Text Label 10700 1600 0    60   ~ 0
+Text Label 8000 1300 0    60   ~ 0
 CountC
 Text Label 6200 1300 0    60   ~ 0
 DAC
-Text Label 10700 2000 0    60   ~ 0
+Text Label 6200 2300 0    60   ~ 0
 PS
 $Comp
 L ICSP-CORTEX J1
@@ -1238,4 +1238,12 @@ Text HLabel 7800 6200 2    60   Output ~ 0
 Count1
 Text HLabel 7800 6300 2    60   Output ~ 0
 Count2
+Wire Wire Line
+	7900 1100 8000 1100
+Wire Wire Line
+	8000 1200 7900 1200
+Wire Wire Line
+	7900 1300 8000 1300
+Wire Wire Line
+	6200 2300 6100 2300
 $EndSCHEMATC
