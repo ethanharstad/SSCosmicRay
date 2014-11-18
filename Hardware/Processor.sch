@@ -1132,13 +1132,13 @@ Text Label 10600 5700 0    60   ~ 0
 STAT
 Wire Wire Line
 	10600 5700 10500 5700
-Text Label 10500 2400 0    60   ~ 0
+Text Label 8000 2100 0    60   ~ 0
 LED0
-Text Label 10500 2500 0    60   ~ 0
+Text Label 8000 2200 0    60   ~ 0
 LED1
-Text Label 10500 2600 0    60   ~ 0
+Text Label 8000 2300 0    60   ~ 0
 LED2
-Text Label 10500 2300 0    60   ~ 0
+Text Label 8000 2000 0    60   ~ 0
 STAT
 $Comp
 L C C14
@@ -1193,4 +1193,12 @@ Wire Wire Line
 	6200 2300 6100 2300
 Wire Wire Line
 	5400 3100 5500 3100
+Wire Wire Line
+	7900 2000 8000 2000
+Wire Wire Line
+	8000 2100 7900 2100
+Wire Wire Line
+	7900 2200 8000 2200
+Wire Wire Line
+	8000 2300 7900 2300
 $EndSCHEMATC
