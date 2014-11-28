@@ -209,22 +209,6 @@ $EndComp
 Text Label 2900 4500 2    60   ~ 0
 Bst
 $Comp
-L R R37
-U 1 1 5411D30B
-P 2750 5100
-F 0 "R37" H 2750 5200 50  0000 C CNN
-F 1 "10k" H 2750 5100 50  0000 C CNN
-F 2 "RESC1608" H 2750 5100 60  0001 C CNN
-F 3 "~" H 2750 5100 60  0000 C CNN
-F 4 "Yageo" H 2750 5100 60  0001 C CNN "MFR Name"
-F 5 "RC0603FR-0710KL" H 2750 5100 60  0001 C CNN "MFR Part No"
-F 6 "311-10.0KHRCT-ND" H 2750 5100 60  0001 C CNN "Distributor Part No"
-F 7 "0.1W" H 2750 5000 50  0001 C CNN "Power"
-F 8 "1%" H 2750 4900 50  0001 C CNN "Tolerance"
-	1    2750 5100
-	1    0    0    1   
-$EndComp
-$Comp
 L PWR_FLAG #FLG093
 U 1 1 54122098
 P 4800 4800
@@ -291,9 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 5000 2400 5000
 Connection ~ 2400 5000
-Wire Wire Line
-	2500 5100 2400 5100
-Connection ~ 2400 5100
 Wire Wire Line
 	3000 5100 3100 5100
 Wire Wire Line
@@ -620,4 +601,7 @@ F 3 "" H 2800 1500 60  0000 C CNN
 	1    2800 1500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 5100 3000 5000
+Connection ~ 3000 5000
 $EndSCHEMATC
